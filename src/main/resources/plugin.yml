@@ -1,0 +1,12 @@
+name: BalOperationTask
+version: 1.0.0
+main: eu.internetak.baloperationtask.BalOperationTask
+commands:
+  bal:
+    description: Show the balance of a player
+  give:
+    description: Give a player money
+  setbal:
+    description: Set the balance of a player (operator only)
+  earn:
+    description: Earn 1-5 money every minute

@@ -1,0 +1,22 @@
+messages:
+  commands:
+    bal:
+      target_not_online: '&cPlayer %player is not online!' # %player = target's name
+      sender_balance: '&aYour balance is: %bal$' # %bal = sender's balance
+      target_balance: '&aBalance of %player is: %bal$' # %bal = target's balance, %player = target's name
+    give:
+      wrong_usage: '&cUsage: /give <player> <amount>'
+      target_not_online: '&cPlayer %player is not online!'
+      amount_not_integer: '&cAmount must be a positive integer!'
+      sender_low_balance: '&cYour balance is too low! You have just %bal$' # %bal = sender's balance
+      sender_give_success: '&aYou have given %bal$ to %player!' # %bal = given amount, %player = target's name
+      target_give_success: '&aYou just received %bal$ from %player!' # %bal = received amount, %player = sender's name
+    setbal:
+      no_permission: '&cYou do not have permission to use this command!'
+      wrong_usage: '&cUsage: /setbal <player> <amount>'
+      target_not_online: '&cPlayer %player is not online!'
+      amount_not_integer: '&cAmount must be a positive integer!'
+      setbal_success: '&aYou have set the balance of %player to %bal$'
+    earn:
+      used_already: '&cYou can use this command only once a minute! (%seconds)!' # %seconds = remaining seconds
+      earn_success: '&a%amount$ has been added to your balance! Your balance is now %bal$' # %amount = given amount, %bal = target's balance
